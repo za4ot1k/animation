@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section id="login" class="login">
+        <div class="container">
+            <div class="login__form-container sign-up">
+                <form>
+                    <h1 class="login__title">Create Account</h1>
+                    <a class="login__link" href="#">
+                        <i class="fa-brands fa-google-plus-g"></i>
+                    </a>
+                    <a class="login__link" href="#">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                    <a class="login__link" href="#">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a class="login__link" href="#">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                    <span class="login__text">or use your email for registration</span>
+                    <input class="Login__input" type="text" placeholder="Name">
+                    <input class="Login__input" type="email" placeholder="Email">
+                    <input class="Login__input" type="password" placeholder="Password">
+                    <button class="Login__btn">Sign up</button> 
+                </form>
+            </div>
+            <div class="login__form-container sign-in">
+                <form>
+                    <h1 class="login__title">Sign in</h1>
+                    <a class="login__link" href="#">
+                        <i class="fa-brands fa-google-plus-g"></i>
+                    </a>
+                    <a class="login__link" href="#">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                    <a class="login__link" href="#">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a class="login__link" href="#">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                    <span class="login__text">or use your email for password</span>
+                    <input class="Login__input" type="email" placeholder="Email">
+                    <input class="Login__input" type="password" placeholder="Password">
+                    <a class="login__link-sign-in" href="#">Forget Your Password?</a>
+                    <button class="Login__btn">Sign in</button> 
+                </form>
+            </div>
+            <div class="login__toggle-cotainer">
+                <div class="toggle">
+                    <div class="toggle-panel toggle-left">
+                        <h2 class="toggle-title">Welcome Back!</h2>
+                        <p class="toggle-text">
+                            Enter your personal details to use all of site futures
+                        </p>
+                        <button in="login" class="hidden">Sign in</button>
+                    </div>
+                    <div class="toggle-panel toggle-right">
+                        <h2 class="toggle-title">Hello, Friends!</h2>
+                        <p class="toggle-text">
+                        Register with you personal details to use all of site futures
+                        </p>
+                        <button in="registration" class="hidden">Sign up</button>
+                    </div>
+                </div>
+            </div>  
+        </div>  
+    </section>
+
+    <script src="./script.js"></script>
+</body>
+</html>
